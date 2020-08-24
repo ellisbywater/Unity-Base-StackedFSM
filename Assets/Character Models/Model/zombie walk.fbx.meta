@@ -1,67 +1,179 @@
 fileFormatVersion: 2
 guid: 6acf215ffdd2fda4bb7a8fbf2755b50b
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: ArmL1
-    100002: ArmL2
-    100004: ArmR1
-    100006: ArmR2
-    100008: FingerL1
-    100010: FingerL2
-    100012: FingerR1
-    100014: FingerR2
-    100016: FootL1
-    100018: FootR1
-    100020: HandL1
-    100022: HandL2
-    100024: HandL3
-    100026: HandR1
-    100028: HandR2
-    100030: HandR3
-    100032: LegL1
-    100034: LegL2
-    100036: LegL3
-    100038: LegR1
-    100040: LegR2
-    100042: LegR3
-    100044: Neck1
-    100046: Rig1
-    100048: Spine1
-    100050: Spine2
-    100052: //RootNode
-    400000: ArmL1
-    400002: ArmL2
-    400004: ArmR1
-    400006: ArmR2
-    400008: FingerL1
-    400010: FingerL2
-    400012: FingerR1
-    400014: FingerR2
-    400016: FootL1
-    400018: FootR1
-    400020: HandL1
-    400022: HandL2
-    400024: HandL3
-    400026: HandR1
-    400028: HandR2
-    400030: HandR3
-    400032: LegL1
-    400034: LegL2
-    400036: LegL3
-    400038: LegR1
-    400040: LegR2
-    400042: LegR3
-    400044: Neck1
-    400046: Rig1
-    400048: Spine1
-    400050: Spine2
-    400052: //RootNode
-    7400000: mixamo.com
-    9500000: //RootNode
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: ArmL1
+  - first:
+      1: 100002
+    second: ArmL2
+  - first:
+      1: 100004
+    second: ArmR1
+  - first:
+      1: 100006
+    second: ArmR2
+  - first:
+      1: 100008
+    second: FingerL1
+  - first:
+      1: 100010
+    second: FingerL2
+  - first:
+      1: 100012
+    second: FingerR1
+  - first:
+      1: 100014
+    second: FingerR2
+  - first:
+      1: 100016
+    second: FootL1
+  - first:
+      1: 100018
+    second: FootR1
+  - first:
+      1: 100020
+    second: HandL1
+  - first:
+      1: 100022
+    second: HandL2
+  - first:
+      1: 100024
+    second: HandL3
+  - first:
+      1: 100026
+    second: HandR1
+  - first:
+      1: 100028
+    second: HandR2
+  - first:
+      1: 100030
+    second: HandR3
+  - first:
+      1: 100032
+    second: LegL1
+  - first:
+      1: 100034
+    second: LegL2
+  - first:
+      1: 100036
+    second: LegL3
+  - first:
+      1: 100038
+    second: LegR1
+  - first:
+      1: 100040
+    second: LegR2
+  - first:
+      1: 100042
+    second: LegR3
+  - first:
+      1: 100044
+    second: Neck1
+  - first:
+      1: 100046
+    second: Rig1
+  - first:
+      1: 100048
+    second: Spine1
+  - first:
+      1: 100050
+    second: Spine2
+  - first:
+      1: 100052
+    second: //RootNode
+  - first:
+      4: 400000
+    second: ArmL1
+  - first:
+      4: 400002
+    second: ArmL2
+  - first:
+      4: 400004
+    second: ArmR1
+  - first:
+      4: 400006
+    second: ArmR2
+  - first:
+      4: 400008
+    second: FingerL1
+  - first:
+      4: 400010
+    second: FingerL2
+  - first:
+      4: 400012
+    second: FingerR1
+  - first:
+      4: 400014
+    second: FingerR2
+  - first:
+      4: 400016
+    second: FootL1
+  - first:
+      4: 400018
+    second: FootR1
+  - first:
+      4: 400020
+    second: HandL1
+  - first:
+      4: 400022
+    second: HandL2
+  - first:
+      4: 400024
+    second: HandL3
+  - first:
+      4: 400026
+    second: HandR1
+  - first:
+      4: 400028
+    second: HandR2
+  - first:
+      4: 400030
+    second: HandR3
+  - first:
+      4: 400032
+    second: LegL1
+  - first:
+      4: 400034
+    second: LegL2
+  - first:
+      4: 400036
+    second: LegL3
+  - first:
+      4: 400038
+    second: LegR1
+  - first:
+      4: 400040
+    second: LegR2
+  - first:
+      4: 400042
+    second: LegR3
+  - first:
+      4: 400044
+    second: Neck1
+  - first:
+      4: 400046
+    second: Rig1
+  - first:
+      4: 400048
+    second: Spine1
+  - first:
+      4: 400050
+    second: Spine2
+  - first:
+      4: 400052
+    second: //RootNode
+  - first:
+      74: 7400000
+    second: Walk
+  - first:
+      95: 9500000
+    second: //RootNode
   externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -88,8 +200,9 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: mixamo.com
+      name: Walk
       takeName: mixamo.com
+      internalID: 0
       firstFrame: 0
       lastFrame: 121
       wrapMode: 0
@@ -121,6 +234,8 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -128,10 +243,13 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
@@ -143,10 +261,13 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -156,14 +277,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
+  avatarSetup: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

@@ -29,10 +29,6 @@ public class Player : MonoBehaviour
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(movementVector), 0.25f );
         }
         _animator.SetBool("Walking", movementVector != Vector3.zero);
-        if (Input.GetKeyDown((KeyCode.I)))
-        {
-            Hurt(2, 0.2f);
-        }
     }
 
     void CalculateMovement()
